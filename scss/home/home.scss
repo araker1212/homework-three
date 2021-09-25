@@ -1,0 +1,99 @@
+.home {
+  .hero {
+    height: 500px;
+    width: 1280px;
+    background-image: url(/images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: relative;
+
+    .words h3 {
+      color: white;
+      font-size: 60px;
+      font-family: PN;
+      text-align: center;
+      margin-top: 90px;
+    }
+
+    .words p {
+      color: white;
+      font-size: 20px;
+      font-family: GS;
+      text-align: center;
+    }
+
+    .readMoreS {
+      width: 121px;
+      height: 40px;
+      padding: 5px 15px;
+      background-color: #79addc;
+      color: white;
+      font-family: GS;
+      align-items: center;
+      text-align: center;
+      font-size: 15px;
+      margin-top: 50px;
+      margin-left: 600px;
+    }
+  }
+
+  .promo-tours {
+    min-height: 305px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .tour1 {
+      background-image: url(/images/tour-01.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      font-family: PN;
+    }
+
+    .tour2 {
+      background-image: url(/images/tour-02.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      font-family: PN;
+    }
+    .tour3 {
+      background-image: url(/images/tour-03.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      font-family: PN;
+    }
+
+    .learnMore {
+      width: 121px;
+      height: 40px;
+      padding: 5px 15px;
+      background-color: #79addc;
+      color: white;
+      font-family: GS;
+      border-radius: 39px;
+      align-items: center;
+      text-align: center;
+      font-size: 15px;
+    }
+  }
+
+  .booking {
+    min-height: 400px;
+    background-color: yellow;
+    padding: 50px;
+
+    .booking-wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: pink;
+    }
+  }
+}
